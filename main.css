@@ -1,0 +1,74 @@
+.banner {
+    margin-top: 50px;
+    height: 600px;
+    width: auto;
+    background: var(--green-700);
+    color:white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 80px;
+    background-image: url("/back.png");
+    background-blend-mode: difference;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h2 {
+    font-family: var(--serif);
+    font-size: var(--spacing-spacing-6);
+    line-height: var(--spacing-spacing-7);
+    text-align: left;
+}
+.banner h3 {
+    font-family: var(--sans);
+    font-size: var(--spacing-spacing-5);
+    line-height: var(--spacing-spacing-5);
+    font-weight: 450;
+}
+.back {
+    overflow: hidden;
+    width:120%;
+    transform: translateX(-80px) translateY(-580px);
+    opacity: 0.7;
+}
+.neurallist {
+    margin-top: 50px;
+    padding-top: 10px;
+    font-family: var(--serif);
+    font-size: var(--spacing-spacing-5);
+    line-height: var(--spacing-spacing-6);
+    margin-left: 30px;
+}
+.list {
+    margin-left: 30px;
+    font-family: var(--serif);
+    font-size: var(--spacing-spacing-4);
+    line-height: var(--spacing-spacing-5);
+}
+.sublist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.neuel {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: var(--sans);
+    font-size: var(--spacing-spacing-4);
+    line-height: var(--spacing-spacing-5);
+    border-left: 10px var(--green-700) solid;
+}
+
+.neuel a {
+    font-size: var(--spacing-spacing-4);
+    line-height: var(--spacing-spacing-1);
+}
+
+.neuel h2 {
+    font-weight: 500;
+}
