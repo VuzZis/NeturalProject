@@ -8,6 +8,17 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+    <div class="topbar">
+        <div class="toplink">
+            <a href="#students">УЧАЩИЕСЯ</a>
+        </div>
+        <div class="toplink">
+            <a href="#teachs">УЧИТЕЛЯ</a>
+        </div>
+        <div class="toplink">
+            <a href="#general">ОБЩЕЕ</a>
+        </div>
+    </div>
     <div class="banner">
         <h2>Netural</h2>
         <h3>Сборник полезных нейросетей, 
@@ -16,43 +27,17 @@
             подготовленный для конкурса исследовательских проектов "Зерде"</h3>
     </div>
     <h2 class="neurallist">Список нейросетей</h2>
-    <div class="list">
-        <h2>Текстовые нейросети</h2>
-        <div class="sublist">
-            <div class="neuel">
-                <h2>ChatGPT</h2>
-                <a>ChatGPT - заранее обученная модель для работы с текстом, 
-                полезен в объяснении темы, составления заданий, 
-                и советов по различным темам.</a>
-            </div>
-            <div class="neuel">
-                <h2>Turnitin</h2>
-                <a>Проверяет работу на антиплагиат, а также на использование других нейросетей</a>
-            </div>
-            <div class="neuel">
-                <h2>Paperpal</h2>
-                <a>Проверяет текст на ошибки, и делает более академическим</a>
-            </div>
-            <div class="neuel">
-                <h2>Grammarly</h2>
-                <a>Улучшает грамматику на английском языке, путём перефразирования предложений</a>
-            </div>
-        </div>
-        <h2>Интерактивные нейросети</h2>
-        <div class="sublist">
-            <div class="neuel">
-                <h2>Interview Warmup</h2>
-                <a>Виртуальные тренировочные собеседования в Google.</a>
-            </div>
-            <div class="neuel">
-                <h2>Yoodli</h2>
-                <a>Развивает способности коммуникаций, избавляет от слов-паразитов.</a>
-            </div>
-            <div class="neuel">
-                <h2>ToMe.APP</h2>
-                <a>Даёт возможность создать простую презентацию на любые темы, с иллюстрациями и возможностями выбрать темы слайдов. (Нельзя скачать)</a>
-            </div>
-        </div>
+    <div class="list" id="neurals">
     </div>
+    <div class="list" id="students">
+        <h2>Для учащихся</h2>
+    </div>
+    <div class="list" id="teachs">
+        <h2>Для учителей</h2>
+    </div>
+    <div class="list" id="general">
+        <h2>Общее</h2>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
