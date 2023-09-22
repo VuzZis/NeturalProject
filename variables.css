@@ -1,5 +1,5 @@
 :root {
-    --sans: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
+    --sans: Gerbera,"Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
     --circle: "Soehne Circle", sans-serif;
     --serif: "Signifier", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
     --mono: "Soehne Mono Buch", Courier, monospace;

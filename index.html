@@ -10,24 +10,26 @@
 <body>
     <div class="topbar">
         <div class="toplink">
-            <a href="#students">УЧАЩИЕСЯ</a>
+            <a href="#students">УЧАЩИМСЯ</a>
         </div>
         <div class="toplink">
-            <a href="#teachs">УЧИТЕЛЯ</a>
+            <a href="#teachs">УЧИТЕЛЯМ</a>
         </div>
         <div class="toplink">
             <a href="#general">ОБЩЕЕ</a>
         </div>
     </div>
     <div class="banner">
-        <h2>Netural</h2>
-        <h3>Сборник полезных нейросетей, 
-            для улучшения эффективности учебного процесса, 
-            и облегчения изучения нового материала, 
-            подготовленный для конкурса исследовательских проектов "Зерде"</h3>
-    </div>
-    <h2 class="neurallist">Список нейросетей</h2>
-    <div class="list" id="neurals">
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el" style="width: 100vw; height: 100vh;"></canvas>
+        </div>
+        <div class="bannertext">
+            <h2>Netural</h2>
+            <h3>Сборник полезных нейросетей, 
+                для улучшения эффективности учебного процесса, 
+                и облегчения изучения нового материала, 
+                подготовленный для конкурса исследовательских проектов "Зерде"</h3>
+        </div>
     </div>
     <div class="list" id="students">
         <h2>Для учащихся</h2>
@@ -37,7 +39,11 @@
     </div>
     <div class="list" id="general">
         <h2>Общее</h2>
+        <h2 class="neurallist">Список нейросетей</h2>
+        <div class="list" id="neurals">
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
