@@ -6,6 +6,16 @@
     <title>Netural</title>
     <link rel="stylesheet" type="text/css" href="variables.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #63F2D8;
+            --df-messenger-button-titlebar-color: #1e9999;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: #1E9999;
+            --df-messenger-user-message: #1E9999;
+        }
+    </style>
 </head>
 <body>
     <div class="topbar">
@@ -45,6 +55,14 @@
             </div>
         </div>
     </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;media.discordapp.net&#x2F;attachments&#x2F;1016722589814628473&#x2F;1155204758223716412&#x2F;chatnet.png"
+      intent="WELCOME"
+      chat-title="Chat-Net"
+      agent-id="c2550d98-3f43-4e39-858a-3d22a56faaa6"
+      language-code="ru"
+    ></df-messenger>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="index.js"></script>
 </body>
