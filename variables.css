@@ -1,5 +1,5 @@
 :root {
-    --sans: Gerbera,"Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
+    --sans: "Soehne", system-ui, -apple-system, Helvetica Neue, Arial, sans-serif;
     --circle: "Soehne Circle", sans-serif;
     --serif: "Signifier", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
     --mono: "Soehne Mono Buch", Courier, monospace;
@@ -36,9 +36,9 @@
     --red-400: #FFB7A4;
     --red-500: #FF9574;
     --red-600: #FF6E3C;
-    --red-700: #FF4500;
-    --red-800: #AA2E00;
-    --red-900: #541600;
+    --red-700: #f01c1c;
+    --red-800: #cc0d17;
+    --red-900: #850b34;
     --green-050: #F4FFF4;
     --green-100: #E9FFE8;
     --green-200: #D9FFD8;
@@ -56,7 +56,7 @@
     --blue-400: #7989FF;
     --blue-500: #3C46FF;
     --blue-600: #0000FF;
-    --blue-700: #0404AC;
+    --blue-700: #1c48d6;
     --blue-800: #020267;
     --blue-900: #00002E;
     --cyan-050: #F0FFFF;
@@ -68,6 +68,7 @@
     --cyan-600: #00FFFF;
     --cyan-700: #00E7E7;
     --cyan-800: #00B3B3;
+    --yellow-700: rgb(255, 231, 17);
 }
 
 @media (min-width: 744px) {
